@@ -5,15 +5,41 @@
  body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;  
-    /* margin: 0;    */
+    margin: 0;   
+  }
+
+  #main-nav {
+      width: 100%;
+      position: relative;
+      display: inline-block;
+      background: black;
+                  
+  }
+
+  .name {
+    font-size: 35px;  
+    width: 18%;
+    background: red;
+    margin-left: 50px;
+    float: left;
+    font-weight: bolder;
+    width: 150px;
+    height: 76px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    left: 200px; 
+    text-align: center;
+                  
   }
 
   ul {
+    float: right;
+    display: block;
     list-style-type: none;
-    margin: 0;
+    margin: 15px;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 
 li {
@@ -41,82 +67,28 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
-h1 {
-    background: red;
-}
-
-
-
-
-
-
- /* .main-nav{
-    position: relative; 
-    /*top: 0px;
-    height: 25%;    
-    width: 100%; 
-    background-color: rgb(211, 143, 18);  
-    overflow: hidden;
-    background-color: #333;
-    left: 80%; 
-    float: right;
-
-  }
-
- h1{
-    position: absolute;
-    font-weight: bolder;
-    font-size: 25px;
-    width: 150px;
-    height: 80px;
-    border: 1px solid blue;
-    background: blue;
-    box-sizing: border-box;
-    left: 200px; 
-    text-align: center;
-    float: left; 
- }
-
-#sub-nav{
-     position: absolute;
-    color: rgb(78, 76, 76);
-    border-right:1px solid rgb(78, 76, 76);
-    background-color: red; 
-    top:25px;
-    left: 80%;     
-}
-
-#sub-nav > li {
-    display: inline-block;
-    padding: 10px;
-    margin-left: 5px;
-    top:40px;   
-}
-
-#sub-nav > li > a {
-
-    font-size: 20px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: blue;
-}
-
 .about-me {
     position: absolute;
+    color: white;
     top: 17%;
     margin-right: 25%;
     margin-left: 25%;
     border: solid;
     width: 50%;
     text-align: center;
-    border-color: rgb(255, 10, 10);
+    border-color: gray;
     padding: 20px;
-    background-color: wheat
+    background-color: black;
+}
+
+h2 {
+    color: #4CAF50;
+    font-size: 32px;
+    border-bottom: solid gray;
 }
 
 div.about-me img{
+    margin-top: 10px;
     float: left;
     width: 33%;
     height: auto;
@@ -128,47 +100,46 @@ p{
 }
    
 #gallery {
-    position: relative;
-    top: 50%;   
+    position: absolute;
+    top: 17%;   
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid gray;
     float: left;
-    width: 180px;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
+    width: 160px;
 }
 
 div.gallery img {
-    width: 25%;
-    height: auto;
+    width: auto;
+    height: 250px;
 }
 
 #contact-form{
     position: relative;
-    top: 200px;
+    top: 50px;
     margin-top: 50px;
-    transition: all 4s ease-in-out;
-    width: 400px;
-    height: 200px;
+    margin-left: 100px; 
+    width: 600px;
+    height: 300px;
     background: gray;
     border: solid;
     border-color: black;
-    outline: none;
     color: black;
     font-size: 18px;
-    margin-bottom: 16;    
-} */
+}
 
-footer{
-    font-size: 12px; 
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+    footer{
+    font-size: 18px; 
+    height: 50px;
+    position: fixed;
     left: 0;
     bottom: 0;
-    height: 50px;
     width: 100%;
     background-color: black;
-    color: gray;
+    color:white;
     text-align: center;
-}
-    
+    }
